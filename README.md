@@ -2,7 +2,7 @@
 Scope-Resource-Action-Role Based Access Control Model,Aims at 2B  software application .
 
 
-## 权限设计（ORRA模型）
+## 权限设计SRAR模型）
 1. 模型
     - 作用域(scope) tenant、group、company、individual(user)等均为不同层级的组织作用域，组织的关系为树形结构。
     - 资源(rsc) resource为数据资源， 如：订单信息、客户信息等，通过组织ID实现在不同组织层级的数据隔离。
