@@ -1,10 +1,10 @@
 # OBAC
-Orgnazition Based Access Control Model,Aims at 2B  software application .
+organization Based Access Control Model,Aims at 2B  software application .
 
 
 ## 权限设计OBAC模型）
 1. 模型
-    - 组织（orgnazition）多层次组织。每个用户属于一个组织，每一个资源属于一个组织，一个用户可以访问同一个组织内的资源，并根据角色确定访问范围等级
+    - 组织（organization）多层次组织。每个用户属于一个组织，每一个资源属于一个组织，一个用户可以访问同一个组织内的资源，并根据角色确定访问范围等级
     - 资源(resource) resource为数据资源， 如：订单信息、客户信息等，通过组织ID实现在不同组织层级的数据隔离。
     - 
     - 动作(action) action为对resource的操作权限,通过web路径来区分resource+action，如：创建、查看、修改、删除等。
