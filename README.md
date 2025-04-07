@@ -1,10 +1,12 @@
-# RARS
-Resource-Action-Role-Scope Based Access Control Model,Aims at 2B  software application .
+# OBAC
+Orgnazition Based Access Control Model,Aims at 2B  software application .
 
 
-## 权限设计RARS模型）
+## 权限设计OBAC模型）
 1. 模型
+    - 组织（orgnazition）多层次组织。每个用户属于一个组织，每一个资源属于一个组织，一个用户可以访问同一个组织内的资源，并根据角色确定访问范围等级
     - 资源(resource) resource为数据资源， 如：订单信息、客户信息等，通过组织ID实现在不同组织层级的数据隔离。
+    - 
     - 动作(action) action为对resource的操作权限,通过web路径来区分resource+action，如：创建、查看、修改、删除等。
     - 角色(role) role为组织下的角色，不同的user属于不同的role，role又是不同层级下的role，一个role可以覆盖多个resource，role可以对应多个action。
     - 作用域(scope) tenant、group、company、individual(user)等均为不同层级的组织作用域，组织的关系为树形结构。
